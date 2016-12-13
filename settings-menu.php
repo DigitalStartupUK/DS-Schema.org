@@ -26,7 +26,7 @@ function ds_schema_settings_page() {
     <?php do_settings_sections( 'ds-schema-settings-group' ); ?>
     <table class="form-table">
         <tr valign="top">
-        <th scope="row">Accountant Name</th>
+        <th scope="row">Website Logo</th>
         <td><input type="text" name="logo" value="<?php echo esc_attr( get_option('logo') ); ?>" /></td>
         </tr>
     </table>
