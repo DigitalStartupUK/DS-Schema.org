@@ -3,7 +3,14 @@
 add_action('admin_menu', 'ds_schema_menu');
 
 function ds_schema_menu() {
-	add_menu_page('DS Schema', 'DS Schema', 'manage_options', 'ds-schema-plugin-settings', 'ds_schema_settings_page', '', 99);
+    add_submenu_page(
+        'options-general.php',
+        'DS Schema',
+        'DS Schema',
+        'manage_options',
+        'ds-schema-plugin-settings',
+        'ds_schema_settings_page'
+    );
 } 
 
 function ds_schema_settings() {
