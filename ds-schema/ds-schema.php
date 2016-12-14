@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Digital Startup - Schema
+ * Plugin Name: Automatic Schema
  * Plugin URI: http://digitalstartup.co.uk/
- * Description: This plugin will automatically insert http://schema.org/BlogPosting Microdata within your blog pages.
+ * Description: This plugin will automatically insert http://schema.org/BlogPosting Microdata within your blog pages. You don't have to pre-fill any more information!
  * Version: 1.0.5
- * Author: Craig N
+ * Author: Digital Startup
  * Author URI: http://digitalstartup.co.uk/
  * License: GPL2
  */
@@ -56,8 +56,8 @@ add_action('admin_menu', 'ds_schema_menu');
 function ds_schema_menu() {
     add_submenu_page(
         'options-general.php',
-        'Digital Startup Schema',
-        'DS Schema',
+        'Automatic Schema',
+        'Automatic Schema',
         'manage_options',
         'ds-schema-plugin-settings',
         'ds_schema_settings_page'
