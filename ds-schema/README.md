@@ -3,8 +3,8 @@ Contributors: digitalstartup
 Donate link: https://wordpress.org/plugins/automatic-schema
 Tags: article, bing, google, microdata, microformat, people, product, rdfa, rich snippet, schema, schema.org, serp
 Requires at least: 4.6
-Tested up to: 4.7
-Stable tag: 4.6
+Tested up to: 4.7.4
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,13 +16,13 @@ This plugin will automatically insert http://schema.org/BlogPosting Microdata in
 
 The job of microdata, is to hold the hand of a search engine, and take it directly to the data that you need it to find. This helps search engines understand what it is crawling and minimise mistakes.
 
-Major search engines, like Google, now support something called the [schema.org](http://schema.org/) vocabulary for structured data. In English, it’s a universal template for structuring data. Essentially this makes it easier for search engines to crawl your pages. As a human being, we are able to fill in the blanks when we view information, but software like search engines require a helping hand.
+Major search engines, like Google, now support something called the [schema.org](http://schema.org/) vocabulary for structured data. In English, it is a universal template for structuring data. Essentially this makes it easier for search engines to crawl your pages. As a human being, we are able to fill in the blanks when we view information, but software like search engines require a helping hand.
 
 One of the ways the schema.org vocabulary can be embedded within a page, is by using microdata. There are different sets for whatever your page is referring to. In the case of selling products, you would use the [Product Schema](http://schema.org/Product). If you are familiar with metadata, then think of it like that. In the HTML of your page code, you wrap the text in the same way.
 
 **What does this plugin do?**
 
-This plugin allows you to emded Schema.org Microdata for PostingBlog. But rather than pre-fill this information using other plugins, it automatically pulls the information from your Article and your Wordpress Settings so that you don't have to do anything.
+This plugin allows you to embed Schema.org Microdata for PostingBlog. But rather than pre-fill this information using other plugins, it automatically pulls the information from your Article and your Wordpress Settings so that you don't have to do anything.
 
 The microdata won't be shown on the page, but instead just within the footer using meta tags. This means that the page will be optimised for search engines without having to add text to the page.
 
@@ -64,7 +64,20 @@ Check which errors are highlighted, and ensure that the settings for the fields 
 
 == Screenshots ==
 
+1. Part 1 of the Settings Screen
+
+2. Part 2 of the Settings Screen
+
+3. How Google Structured Data Testing Tools sees the Microdata
+
 == Changelog ==
+
+= 1.0.7 =
+* Fixed issue where articleBody would show in Footer
+
+= 1.0.6 =
+* Fixed typos in Settings Page
+* Updated layout of Settings Page
 
 = 1.0.5 =
 * Made visual improvements to the settings page
