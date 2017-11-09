@@ -19,7 +19,7 @@ function ds_schema() {
 		<meta itemprop="mainEntityOfPage" content="<?php the_permalink() ?>"/>
 		<meta itemprop="datePublished" content="<?php the_date('Y-m-d'); ?>">
 		<meta itemprop="dateModified" content="<?php the_modified_time('Y-m-d');?>">
-		<meta itemprop="articleBody" content="<?php echo strip_tags( get_the_excerpt() ); ?>">
+		<meta itemprop="articleBody" content="<?php the_excerpt() ?>">
 	  <div itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject"/>
 		<meta itemprop="url" content="<?php the_post_thumbnail_url( 'medium' ); ?>">
 		<meta itemprop="width" content="300">
